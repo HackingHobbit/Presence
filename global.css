@@ -1,38 +1,42 @@
 body {
-    margin: 0;
-    line-height: normal;
-  }
-  
-  :root {
-    /* fonts */
-    --button: Roboto;
-    --font-montserrat-alternates: "Montserrat Alternates";
-  
-    /* font sizes */
-    --button-size: 0.88rem;
-    --caption-size: 0.75rem;
-    --body-1-size: 1rem;
-  
-    /* Colors */
-    --white: #fff;
-    --black-87: rgba(0, 0, 0, 0.87);
-    --black-38: rgba(0, 0, 0, 0.38);
-    --black-12: rgba(0, 0, 0, 0.12);
-    --black-60: rgba(0, 0, 0, 0.6);
-    --white-74: rgba(255, 255, 255, 0.74);
-    --color-gainsboro-100: #e5e5e5;
-    --primary-color: #1554f7;
-  
-    /* Gaps */
-    --gap-mini: 0.94rem;
-  
-    /* Paddings */
-    --padding-5xs: 0.5rem;
-    --padding-lg: 1.13rem;
-    --padding-smi: 0.81rem;
-    --padding-9xs: 0.25rem;
-  
-    /* Border radiuses */
-    --br-11xs: 2px;
-    --br-9xs: 4px;
-  }
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button: Roboto;
+  --font-montserrat-alternates: "Montserrat Alternates";
+
+  /* font sizes */
+  --button-size: 0.88rem;
+  --caption-size: 0.75rem;
+  --body-1-size: 1rem;
+
+  /* Colors */
+  --white-surface: #fff;
+  --black-87: rgba(0, 0, 0, 0.87);
+  --black-38: rgba(0, 0, 0, 0.38);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --color-black: #000;
+  --m3-sys-dark-surface-bright: #3b383e;
+  --primary-color: #1554f7;
+
+  /* Gaps */
+  --gap-4xs: 0.56rem;
+
+  /* Paddings */
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-12xs: 0.06rem;
+  --padding-9xs: 0.25rem;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+
+  /* Effects */
+  --button-button-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+

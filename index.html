@@ -14,48 +14,90 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
     />
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
   </head>
-
   <body>
-    <main class="login-screen">
-      <div class="logo-container">
+    <div class="login-screen">
+      <div class="login-screen-child"></div>
+      <div class="mui-icon-wrapper">
         <img
-          class="logo"
+          class="mui-icon"
           loading="eager"
-          alt="Hacking Hobbits Logo"
-          src="./images/mui-icon.png"
+          alt=""
+          src="./public/mui-icon.svg"
         />
       </div>
-      <h1 class="app-title">Presence</h1>
-      <div class="app-slogan">Make time count!</div> 
-      <div class="instruction1">Login or sign up for free.</div> 
-      <div class="input-fields">
-        <input class="input-field" type="text" id="username" name="username" placeholder="Email or Username">
-        <input class="input-field" type="password" id="password" name="password" placeholder="Password">
-      </div>
-      <div class="button-parent">
-        <button class="button" id="continue-button">
-          <div class="label">Continue</div>
-        </button>
-        <div class="divider">
-          <div class="line-separator"></div>
-          <div class="centered-label">
-            <div class="label1">or use</div>
+      <section class="login-screen-inner">
+        <div class="app-title-parent">
+          <h1 class="app-title">Presence</h1>
+          <div class="app-slogan">Make time count!</div>
         </div>
-      </div>
-      <div class="button-parent">
-        <button class="button google-button" id="google-button">
-          <img src="./images/google_icon.svg" alt="Google logo" class="google-logo">
-          Sign in with Google
-        </button>
-        <button class="button apple-button" id="apple-button">
-          <img src="./images/apple_icon.svg" alt="Apple logo" class="apple-logo">
-          Sign in with Apple
-        </button>
-      </div>
-    </main>
+      </section>
+      <section class="username-password-frame-parent">
+        <div class="username-password-frame">
+          <div class="instruction">Login to begin.</div>
+        </div>
+        <form class="username-password-parent">
+          <div class="username-password">
+            <div class="outline-placeholder-text">
+              <div class="username">
+                <div class="outline"></div>
+                <img class="icon-right" alt="" src="./public/icon-right.svg" />
 
-    
+                <div class="helper-text">Helper text</div>
+                <input
+                  class="placeholder-text"
+                  placeholder="Email or Username"
+                  type="text"
+                />
+
+                <div class="input-text">Input text</div>
+                <div class="floating-label">Label</div>
+              </div>
+              <div class="password">
+                <div class="outline1"></div>
+                <img class="icon-right1" alt="" src="./public/icon-right.svg" />
+
+                <div class="helper-text1">Helper text</div>
+                <input
+                  class="placeholder-text1"
+                  placeholder="Password"
+                  type="text"
+                />
+
+                <div class="input-text1">Input text</div>
+                <div class="floating-label1">Label</div>
+              </div>
+            </div>
+          </div>
+          <div class="buttonlogin">
+            <button class="button-login" id="buttonLogin">
+              <div class="label">Continue</div>
+            </button>
+          </div>
+          <div class="or-text">
+            <div class="horizontal-darkinset-dark">
+              <div class="divider"></div>
+            </div>
+            <div class="or-use">or use</div>
+          </div>
+          <div class="google-signin">
+            <button class="sign-in-with-google">
+              <img class="icon" alt="" src="./public/icon.svg" />
+
+              <div class="label-button">Sign in with Google</div>
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      var buttonLogin = document.getElementById("buttonLogin");
+      if (buttonLogin) {
+        buttonLogin.addEventListener("click", function (e) {
+          // Please sync "Dashboard" to the project
+        });
+      }
+      </script>
   </body>
 </html>

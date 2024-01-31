@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <header class="app-bar-regular-parent">
+        <img
+          class="iconsarrow-back-24px"
+          loading="eager"
+          alt=""
+          src="./public/iconsarrow-back-24px.svg"
+          id="iconsarrowBack24px"
+        />
+        <div class="app-bar-regular">
+          <h2 class="title">Dashboard</h2>
+        </div>
+      </header>
+      <main class="content-scroll-area">
+        <div class="sign-in-sign-out-card" id="signInSignOutCard">
+          <div class="content">
+            <div class="media-text-content">
+              <div class="header">
+                <div class="content1">
+                  <div class="text">
+                    <div class="header1">Sign-In/Sign-Out</div>
+                    <div class="subhead">
+                      Open current sign-in/sign-out sheet.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="media-icon"
+              loading="eager"
+              alt=""
+              src="./public/media@2x.png"
+            />
+          </div>
+        </div>
+
+        <div class="import-roster-card">
+          <div class="content">
+            <div class="media-text-content">
+              <div class="header">
+                <div class="content1">
+                  <div class="text">
+                    <div class="header1">Import New Roster</div>
+                    <div class="subhead">Create roster from CSV file.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="media-icon" alt="" src="./public/media-1@2x.png" />
+          </div>
+        </div>
+
+        <div class="export-data-card" id="exportDataCard">
+          <div class="content">
+            <div class="media-text-content">
+              <div class="header">
+                <div class="content1">
+                  <div class="text">
+                    <div class="header1">Export Data</div>
+                    <div class="subhead">Export CSV files for analysis.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="media-icon" alt="" src="./public/media-2@2x.png" />
+          </div>
+        </div>
+
+        
+      </main>
+
+      <footer>
+        <button class="log-out-button">
+          <div class="state-layer3">
+            <div class="logout-button-labeltext">LOG OUT</div>
+          </div>
+        </button>
+      </footer>
+    </div>
+
+    <script>
+      var iconsarrowBack24px = document.getElementById("iconsarrowBack24px");
+      if (iconsarrowBack24px) {
+        iconsarrowBack24px.addEventListener("click", function (e) {
+          // Please sync "Login Screen" to the project
+        });
+      }
+
+      var signInSignOutCard = document.getElementById("signInSignOutCard");
+      if (signInSignOutCard) {
+        signInSignOutCard.addEventListener("click", function (e) {
+          // Please sync "Sign-In/Sign-Out" to the project
+        });
+      }
+
+      var backgroundContainer = document.getElementById("backgroundContainer");
+      if (backgroundContainer) {
+        backgroundContainer.addEventListener("click", function (e) {
+          // Please sync "Import Roster" to the project
+        });
+      }
+
+      var exportDataCard = document.getElementById("exportDataCard");
+      if (exportDataCard) {
+        exportDataCard.addEventListener("click", function (e) {
+          // Please sync "Analytics" to the project
+        });
+      }
+    </script>
+  </body>
+</html>
