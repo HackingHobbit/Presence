@@ -1,102 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./import-roster.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-    />
-  </head>
-  <body>
-    <div class="import-roster">
-      <header class="action-bar2">
-        <div class="actions5">
-          <img class="share-icon2" alt="" src="./public/share.svg" />
-
-          <img class="search-icon2" alt="" src="./public/search.svg" />
-
-          <img class="favorite-icon2" alt="" src="./public/favorite.svg" />
-
-          <img class="more-icon2" alt="" src="./public/more.svg" />
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Import New Roster</title>
+<link rel="stylesheet" href="import-roster.css">
+</head>
+<body>
+    
+        <div class="header">
+            <img
+            class="iconsarrow-back-24px"
+            loading="eager"
+            alt=""
+            src="./public/iconsarrow-back-24px.svg"
+            id="iconsarrowBack24px"
+            />
+            <div class="title">Import New Roster</div>
         </div>
-        <img
-          class="f-r-a-m-e"
-          loading="eager"
-          alt=""
-          src="./public/empty-space.svg"
-        />
-
-        <div class="title3">Import New Roster</div>
-      </header>
-      <main class="content-area2">
-        <section class="content-area3">
-          <div class="slot2">
-            <div class="outline4"></div>
-            <div class="type2">Content Area</div>
-          </div>
-        </section>
-        <div class="divider3">
-          <div class="divider4"></div>
-        </div>
-        <div class="divider5">
-          <div class="divider6"></div>
-        </div>
-        <div class="input-roster-title">
-          <div class="active-indicator"></div>
-          <div class="text-field9">
-            <div class="state-layer25">
-              <div class="content10">
-                <div class="label-text21">
-                  <div class="labeltext1">Roster Title</div>
-                </div>
-                <input
-                  class="input-text4"
-                  placeholder="Enter title for new roster"
-                  type="text"
-                />
-              </div>
-              <div class="trailing-icon1">
-                <div class="container3">
-                  <div class="state-layer26">
-                    <img class="icon9" alt="" src="./public/icon.svg" />
-                  </div>
-                </div>
-              </div>
+        
+        <div class="content">
+            <div class="input-field">
+                <input type="text" id="rosterTitle" placeholder="Enter title for new roster" />
+                <button class="clear-button">&times;</button>
             </div>
-          </div>
-        </div>
-        <img
-          class="iconserror-24px"
-          loading="eager"
-          alt=""
-          src="./public/iconserror-24px.svg"
-        />
+            
+            <div class="warning-message">
+                <span class="warning-icon">!</span>
+                <p class="warning-text">Existing data will not be available in the app after importing a new roster.</p>
+            </div>
 
-        <div class="existing-data-will">
-          Existing data will not be available in the app after importing a new
-          roster.
+            <div class="divider"></div>
+            
+            <button class="import-csv-button">Import CSV</button>
         </div>
-        <button class="import-csv-button" id="importCSVButton">
-          <div class="label5">Import csv</div>
-        </button>
-      </main>
-    </div>
+   
 
-    <script>
-      var importCSVButton = document.getElementById("importCSVButton");
-      if (importCSVButton) {
-        importCSVButton.addEventListener("click", function (e) {
-          // Please sync "Dashboard" to the project
-        });
-      }
-      </script>
-  </body>
+
+</body>
 </html>

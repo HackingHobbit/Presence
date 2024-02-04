@@ -1,4 +1,43 @@
+<<<<<<< HEAD
+=======
+body {
+  margin: 0;
+  line-height: normal;
+}
 
+:root {
+  /* fonts */
+  --m3-label-large: Roboto;
 
+  /* font sizes */
+  --m3-label-large-size: 14px;
+  --m3-body-small-size: 12px;
+  --m3-title-medium-size: 16px;
+  --title-headline-size: 20px;
 
+  /* Colors */
+  --background: #f1f3f4;
+  --primary-color: #1554f7;
+  --m3-sys-light-on-primary: #fff;
+  --m3-sys-light-outline-variant: #cac4d0;
+  --m3-sys-light-on-surface: #1d1b20;
 
+  /* Gaps */
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+  --padding-9xs: 4px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+
+  /* Effects */
+  --dp: 0px 3px 4px rgba(0, 0, 0, 0.14), 0px 3px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+>>>>>>> Incoming

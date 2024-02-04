@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Kebab Case",
+    "unit": "px",
+    "framework": "html-css",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project": "App Layout v2",
+    "id": "65b9946979b1fd182d34b259",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\Josep\\OneDrive\\Documents\\GitHub\\Presence\\src\\components",
+    "screensPath": "c:\\Users\\Josep\\OneDrive\\Documents\\GitHub\\Presence\\src\\pages"
+  }
+}
