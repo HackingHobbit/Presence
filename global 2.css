@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button: Roboto;
+  --font-montserrat-alternates: "Montserrat Alternates";
+
+  /* font sizes */
+  --button-size: 0.88rem;
+  --caption-size: 0.75rem;
+  --body-1-size: 1rem;
+  --font-size-26xl: 2.81rem;
+  --m3-title-large-size: 1.38rem;
+  --headline-h4-size: 2.13rem;
+  --title-headline-size: 1.25rem;
+
+  /* Colors */
+  --white-surface: #fff;
+  --m3-sys-light-outline: #79747e;
+  --m3-sys-light-on-tertiary-container: #31111d;
+  --m3-sys-light-on-surface: #1d1b20;
+  --color-gray-100: #00233f;
+  --m3-state-layers-light-on-surface-opacity-012: rgba(29, 27, 32, 0.12);
+  --black-87: rgba(0, 0, 0, 0.87);
+  --black-38: rgba(0, 0, 0, 0.38);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black: #000;
+  --m3-sys-light-on-surface-variant: #49454f;
+  --m3-sys-dark-surface-bright: #3b383e;
+  --m3-state-layers-light-on-surface-variant-opacity-012: rgba(
+    73,
+    69,
+    79,
+    0.12
+  );
+  --primary-color: #1554f7;
+  --m3-sys-light-surface-container-high: #ece6f0;
+  --m3-sys-light-primary: #6750a4;
+  --m3-sys-light-tertiary-container: #ffd8e4;
+  --m3-sys-light-surface-container-highest: #e6e0e9;
+  --m3-sys-light-surface: #fef7ff;
+  --m3-sys-light-surface-container-low: #f7f2fa;
+  --m3-sys-light-outline-variant: #cac4d0;
+  --m3-sys-light-error: #b3261e;
+  --color-navajowhite: #f6d591;
+  --gray: #969696;
+
+  /* Gaps */
+  --gap-4xs: 0.56rem;
+  --gap-5xs: 0.5rem;
+  --gap-6xs: 0.44rem;
+  --gap-12xs: 0.06rem;
+  --gap-5xl: 1.5rem;
+  --gap-3xs: 0.63rem;
+
+  /* Paddings */
+  --padding-3xs: 0.63rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-smi: 0.81rem;
+  --padding-12xs: 0.06rem;
+  --padding-9xs: 0.25rem;
+  --padding-xl: 1.25rem;
+  --padding-5xl: 1.5rem;
+  --padding-xs: 0.75rem;
+  --padding-4xs: 0.56rem;
+  --padding-mini: 0.94rem;
+  --padding-sm: 0.88rem;
+  --padding-10xs: 0.19rem;
+  --padding-2xs: 0.69rem;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-81xl: 100px;
+  --br-5xs: 8px;
+  --br-21xl: 40px;
+
+  /* Effects */
+  --button-button-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.24);
+  --drop-shadow-2: 0px 4px 8px rgba(0, 0, 0, 0.18),
+    0px 2px 4px rgba(0, 0, 0, 0.24);
+}
