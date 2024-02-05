@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -16,26 +16,96 @@
     />
   </head>
   <body>
+<<<<<<< HEAD
     <div class="login-screen">
       <div class="login-screen-child"></div>
       <div class="mui-icon-wrapper">
+=======
+    <div class="dashboard">
+      <header class="app-bar-regular-parent">
+        <div class="app-bar-regular">
+          <img class="nav-menu-icon" alt="" />
+
+          <h2 class="title">Dashboard</h2>
+        </div>
+
+>>>>>>> Incoming
         <img
+<<<<<<< HEAD
           class="mui-icon"
+=======
+          class="iconsarrow-back-24px"
+
+>>>>>>> Incoming
           loading="eager"
           alt=""
+<<<<<<< HEAD
           src="./public/mui-icon.svg"
+=======
+          src="./public/iconsarrow-back-24px.svg"
+          id="iconsarrowBack24px"
+
+>>>>>>> Incoming
         />
+<<<<<<< HEAD
       </div>
       <section class="login-screen-inner">
         <div class="app-title-parent">
           <h1 class="app-title">Presence</h1>
           <div class="app-slogan">Make time count!</div>
+=======
+      </header>
+      <main class="content-scroll-area">
+        <div class="sign-in-sign-out-card" id="signInSignOutCard">
+          <div class="content">
+            <div class="media-text-content">
+              <div class="header">
+                <div class="content1">
+                  <div class="text">
+                    <div class="header1">Sign-In/Sign-Out</div>
+                    <div class="subhead">
+                      Open current sign-in/sign-out sheet.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="media-icon"
+              loading="eager"
+              alt=""
+              src="./public/media@2x.png"
+            />
+          </div>
+          <div class="background"></div>
+
+>>>>>>> Incoming
         </div>
+<<<<<<< HEAD
       </section>
       <section class="username-password-frame-parent">
         <div class="username-password-frame">
           <div class="instruction">Login to begin.</div>
+=======
+        <div class="import-roster-card">
+          <div class="content">
+            <div class="media-text-content">
+              <div class="header">
+                <div class="content1">
+                  <div class="text">
+                    <div class="header1">Import New Roster</div>
+                    <div class="subhead">Create roster from CSV file.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="media-icon" alt="" src="./public/media-1@2x.png" />
+          </div>
+          <div class="background1" id="backgroundContainer"></div>
+
+>>>>>>> Incoming
         </div>
+<<<<<<< HEAD
         <form class="username-password-parent">
           <div class="username-password">
             <div class="outline-placeholder-text">
@@ -52,6 +122,19 @@
 
                 <div class="input-text">Input text</div>
                 <div class="floating-label">Label</div>
+=======
+        <div class="export-data-card" id="exportDataCard">
+          <div class="content">
+            <div class="media-text-content">
+              <div class="header">
+                <div class="content1">
+                  <div class="text">
+                    <div class="header1">Export Data</div>
+                    <div class="subhead">Export CSV files for analysis.</div>
+                  </div>
+                </div>
+
+>>>>>>> Incoming
               </div>
               <div class="password">
                 <div class="outline1"></div>
@@ -68,17 +151,68 @@
                 <div class="floating-label1">Label</div>
               </div>
             </div>
+<<<<<<< HEAD
+=======
+            <img class="media-icon" alt="" src="./public/media-2@2x.png" />
+
+>>>>>>> Incoming
           </div>
+<<<<<<< HEAD
           <div class="buttonlogin">
             <button class="button-login" id="buttonLogin">
               <div class="label">Continue</div>
             </button>
+=======
+          <div class="background2"></div>
+        </div>
+        <button class="log-out-button">
+          <div class="state-layer">
+            <div class="logout-button-labeltext">LOG OUT</div>
+
+>>>>>>> Incoming
           </div>
-          
+<<<<<<< HEAD
         </form>
       </section>
-    </div>
+=======
+        </button>
+      </main>
 
-   
+>>>>>>> Incoming
+    </div>
+<<<<<<< HEAD
+=======
+
+    <script>
+      var iconsarrowBack24px = document.getElementById("iconsarrowBack24px");
+      if (iconsarrowBack24px) {
+        iconsarrowBack24px.addEventListener("click", function (e) {
+          // Please sync "Login Screen" to the project
+        });
+      }
+
+      var signInSignOutCard = document.getElementById("signInSignOutCard");
+      if (signInSignOutCard) {
+        signInSignOutCard.addEventListener("click", function (e) {
+          // Please sync "Sign-In/Sign-Out" to the project
+        });
+      }
+
+      var backgroundContainer = document.getElementById("backgroundContainer");
+      if (backgroundContainer) {
+        backgroundContainer.addEventListener("click", function (e) {
+          // Please sync "Import Roster" to the project
+        });
+      }
+
+      var exportDataCard = document.getElementById("exportDataCard");
+      if (exportDataCard) {
+        exportDataCard.addEventListener("click", function (e) {
+          // Please sync "Analytics" to the project
+        });
+      }
+    </script>
+
+>>>>>>> Incoming
   </body>
 </html>
