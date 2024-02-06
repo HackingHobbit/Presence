@@ -10,6 +10,13 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f6d591;
+  margin: 0px;
+}
+
 input,
 select,
 textarea,
@@ -49,7 +56,7 @@ button {
   width: 24px;
   height: 24px;
   margin: 8px 0 0 8px;
-  background: url(./assets/images/c08cfef9-e918-4667-9b6f-cc7f068c1bcb.png)
+  background: url(./images/back-arrow.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 111;
@@ -78,22 +85,12 @@ button {
   height: 24px;
   top: 16px;
   left: 313px;
-  background: url(./assets/images/e8dcf89e-9dd5-4573-b8cd-2c897a2acc60.png)
+  background: url(./public/contentfilter-list-24px@2x.png)
     no-repeat center;
   background-size: cover;
   z-index: 112;
 }
-.icons-delete-px {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 16px;
-  left: 281px;
-  background: url(./assets/images/5b13a402-b152-4575-8ca0-03600fbd7051.png)
-    no-repeat center;
-  background-size: cover;
-  z-index: 113;
-}
+
 .title-of-list {
   display: flex;
   align-items: center;
@@ -110,7 +107,7 @@ button {
   text-align: left;
   z-index: 130;
   padding-top: 64px;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 .date-field {
   display: flex;
@@ -118,7 +115,7 @@ button {
   align-items: flex-start;
   flex-wrap: nowrap;
   position: relative;
-  width: 312px;
+  width: 100%;
   height: 56px;
   margin: 8px 0 0 18px;
   z-index: 114;
@@ -182,7 +179,7 @@ button {
   width: 90px;
   z-index: 118;
 }
-.date-input-text {
+.date-value {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -270,7 +267,7 @@ button {
   position: relative;
   width: 24px;
   height: 24px;
-  background: url(./assets/images/c9bf1134-7dec-4dfc-9658-88726c532874.png)
+  background: url(./images/calendar-icon.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 125;
@@ -325,7 +322,8 @@ button {
   position: relative;
   min-width: 0;
   height: 1px;
-  background: url(./assets/images/f8735834-dfc7-47f7-b74a-d5300a39dfb7.png)
+  width: 85vw;
+  background: url(./images/horizontal-line.png)
     no-repeat center;
   background-size: cover;
   z-index: 129;
@@ -365,7 +363,7 @@ button {
   z-index: 2;
   border-radius: 4px 4px 0 0;
 }
-.text-field-6 {
+.name-area {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -375,12 +373,12 @@ button {
   gap: 10px;
   position: relative;
   min-width: 0;
-  height: 56px;
+  height: 48px;
   border: 1px solid #79747e;
   z-index: 3;
   border-radius: 4px;
 }
-.state-layer-7 {
+.name-state-layer {
   display: flex;
   align-items: flex-start;
   align-self: stretch;
@@ -394,7 +392,7 @@ button {
   z-index: 4;
   border-radius: 4px 4px 0 0;
 }
-.content-8 {
+.name-field {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -408,7 +406,7 @@ button {
   padding: 4px 0 4px 0;
   z-index: 5;
 }
-.placeholder-text {
+.name-value-container {
   display: flex;
   align-items: flex-start;
   flex-wrap: nowrap;
@@ -418,12 +416,12 @@ button {
   width: 86px;
   z-index: 6;
 }
-.placeholder-text-9 {
+.name-value {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
   height: 24px;
-  color: #49454f;
+  color: #0a090a;
   font-family: Roboto, var(--default-font-family);
   font-size: 16px;
   font-weight: 400;
@@ -447,7 +445,7 @@ button {
   background: #f6d591;
   z-index: 8;
 }
-.label-text-b {
+.label-text- {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -475,7 +473,8 @@ button {
   padding: 4px 16px 0 16px;
   z-index: 10;
 }
-.supporting-text-d {
+
+.company-value {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: auto;
@@ -484,13 +483,14 @@ button {
   height: 16px;
   color: #49454f;
   font-family: Roboto, var(--default-font-family);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: right;
   white-space: nowrap;
   z-index: 11;
 }
+
 .button {
   display: flex;
   flex-direction: column;
@@ -529,7 +529,7 @@ button {
   position: relative;
   width: 18px;
   height: 18px;
-  background: url(./assets/images/f49c754f-1f09-4a1b-9560-f4f62cd54ca0.png)
+  background: url(./images/plus-icon.png)
     no-repeat center;
   background-size: cover;
   z-index: 14;
